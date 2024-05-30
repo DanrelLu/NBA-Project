@@ -1,13 +1,6 @@
 
 
-const fetchTeam = async () => {
-    try {
-        const response = await axios.get('/api/team');
-        setTeam(response.data);
-    } catch (error) {
-        console.error('Error fetching team:', error);
-    }
-};
+
 
 const fetchPlayer = async () => {
     try {
